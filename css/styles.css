@@ -33,6 +33,13 @@ h4 {
   font-size: 35px;
 }
 
+h5 {
+  font-size: 30px;
+}
+
+h6 {
+  margin: 20px 0px 0px 0px;
+}
 p {
   background: var(--secondary-color);
   padding: 20px;
@@ -42,6 +49,30 @@ p {
   margin: 20px auto 20px auto;
 }
 
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer .email-link {
+  margin: 60px 0px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
 .p-work-description {
   text-align: center;
 }
@@ -54,9 +85,10 @@ p {
 .navigation-links a {
   margin: 20px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 20px 40px;
   text-decoration: none;
   text-transform: capitalize;
+  font-size: 20px;
 }
 
 .contact-link {
@@ -107,4 +139,11 @@ p {
   display: block;
   margin: 20px auto 20px auto;
   padding: 20px 30px;
+}
+
+.btn-branding {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 30px;
+  background: #8c586d !important;
 }
